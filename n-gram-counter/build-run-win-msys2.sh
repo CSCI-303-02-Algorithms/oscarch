@@ -17,4 +17,4 @@ cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=mingw32-make.exe -DCMAKE_C_C
 cmake --build ./
 
 #run the program (i.e., the executable) now
-./cmake_base_project.exe
+./n-gram-counter.exe

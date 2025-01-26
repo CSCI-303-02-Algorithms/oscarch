@@ -15,4 +15,4 @@ cmake ../
 cmake --build ./
 
 #run the program (i.e., the executable) now
-./cmake_base_project
+./n-gram-counter
