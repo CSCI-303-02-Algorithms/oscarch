@@ -18,6 +18,7 @@ int main() {
 
     //printing the result
     cout << "Hi, this is Oscar" << endl;
+    cout << "Hi, this is Oscar again" << endl;
     cout << "Sum = " << sum << endl;
 
     //compute the average of the first n integers
