@@ -573,7 +573,7 @@ void pointers() {
 }
 
 void printArrayOfIntegers(const int arraySize, const int *myArray) {
-    //this function prints an array of inters in the format: [i1, i2, ..., in]
+    //this function prints an array of integers in the format: [i1, i2, ..., in]
     cout << "[";
     for (int counter2 = 0; counter2 < arraySize - 1; counter2++) {
         cout << myArray[counter2] << ", ";
