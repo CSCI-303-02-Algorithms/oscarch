@@ -33,10 +33,10 @@ int main(int argc, char *argv[]) {
     cout << "---------------------------" << endl;
 	
 	//see the other code files to know how to declare/implement your own classes
-	//the code below illustrates how to uses those classes (how to declare/use variables or instances of customized types/classes and how to use their operations/methods)
+	//the code below illustrates how to use those classes (how to declare/use variables or instances of customized types/classes and how to use their operations/methods)
 
     //abstract classes must be initialized with instances of their subclasses that are not abstract (i.e., concrete classes),
-    //and the variables should be pointers (in order to achieve polymorphic behavior)
+    //and the variables should be pointers (in order to implement polymorphic behavior)
     Animal *alex = new Lion("Alex", "feline");
 
     string *description = nullptr; //this is how null pointers are initialized
